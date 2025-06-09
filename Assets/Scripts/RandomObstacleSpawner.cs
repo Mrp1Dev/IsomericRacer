@@ -13,7 +13,7 @@ public class RandomObstacleSpawner : MonoBehaviour
         for (int i = 0; i < count; i++)
         {
             Vector2 p = Random.insideUnitCircle * radius;
-            GameObject.Instantiate(prefab, new Vector3(p.x, y, p.y), Quaternion.identity);
+            GameObject.Instantiate(prefab, new Vector3(p.x, y, p.y), Quaternion.identity, transform);
         }
     }
 }

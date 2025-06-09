@@ -90,7 +90,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerInputManager: {fileID: 5688061259004336599}
-  characterPrefab: {fileID: 134696668362613503, guid: 3545accf6a1b1d34e809a84609fb2167, type: 3}
+  characterPrefab: {fileID: 7185107338512603719, guid: 34fd0d50d1d9b764180b0ddde7929a4c, type: 3}
   cameraTargetGroup: {fileID: 0}
   spawnPoints:
   - {fileID: 0}
